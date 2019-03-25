@@ -1,0 +1,20 @@
+logging:
+  level:
+    org:
+      springframework: DEBUG
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      idle-timeout: 10000
+    password: 2oijoyvhn6thkaj7
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://q-n4s3y1.q-g43037.bosh:3306/service_instance_db?user=c71e325c4e1a4311ad8e99a0e5e45118&password=2oijoyvhn6thkaj7&useSSL=false
+    username: c71e325c4e1a4311ad8e99a0e5e45118
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  profiles:
+    active: cloud

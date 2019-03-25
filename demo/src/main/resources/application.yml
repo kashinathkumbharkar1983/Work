@@ -1,0 +1,24 @@
+logging:
+  level:
+    org:
+      springframework: DEBUG
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  protected-mode : no   
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      idle-timeout: 10000
+    password: password
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/mysql?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+   
+    

@@ -1,0 +1,20 @@
+[
+	{
+		"_class": "com.kotak.cache.Person",
+		"emailAddress" : "johndoe@nowhere.com",
+		"firstName" : "John",
+		"lastName" : "Doe"
+	},
+	{
+		"_class": "com.kotak.cache.Person",
+		"emailAddress" : "jane@somewhere.com",
+		"firstName" : "Jane",
+		"lastName" : "Smith"
+	},
+	{
+		"_class": "com.kotak.cache.Person",
+		"emailAddress" : "bobevans@someplace.com",
+		"firstName" : "Bob",
+		"lastName" : "Evans"
+	}
+]
